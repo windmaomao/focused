@@ -1,13 +1,25 @@
 {
   "name": "Focused Reading",
-  "description": "",
+  "description": "This extension reduces a page distraction by revealing paragraphes on-demand.",
   "version": "0.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting"],
   "action": {
-    "default_title": "Click to enable"
+    "default_title": "Click to enable",
+    "default_icon": {
+      "16": "/images/bulb16.png",
+      "32": "/images/bulb32.png",
+      "48": "/images/bulb64.png",
+      "128": "/images/bulb128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/bulb16.png",
+    "32": "/images/bulb32.png",
+    "48": "/images/bulb64.png",
+    "128": "/images/bulb128.png"
   }
 }
