@@ -1,0 +1,13 @@
+{
+  "name": "Focused Reading",
+  "description": "",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_title": "Click to enable"
+  }
+}
